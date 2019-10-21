@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Hugo</title>
-    <link>https://summerijs.github.io/pages/</link>
+    <link>https://summerijs.github.io/hugo/pages/</link>
     <description>Recent content in Pages on Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 07 Jun 2017 15:36:00 +0530</lastBuildDate>
     
-	<atom:link href="https://summerijs.github.io/pages/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://summerijs.github.io/hugo/pages/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://summerijs.github.io/pages/about/</link>
+      <link>https://summerijs.github.io/hugo/pages/about/</link>
       <pubDate>Wed, 07 Jun 2017 15:36:00 +0530</pubDate>
       
-      <guid>https://summerijs.github.io/pages/about/</guid>
+      <guid>https://summerijs.github.io/hugo/pages/about/</guid>
       <description>May the Force be with you, the Torque about you This is where my great about goes</description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>https://summerijs.github.io/pages/contact/</link>
+      <link>https://summerijs.github.io/hugo/pages/contact/</link>
       <pubDate>Wed, 07 Jun 2017 15:36:00 +0530</pubDate>
       
-      <guid>https://summerijs.github.io/pages/contact/</guid>
+      <guid>https://summerijs.github.io/hugo/pages/contact/</guid>
       <description>You may contact me through the nearest wormhole This is where my great contact goes</description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>share on Hugo</title>
-    <link>https://summerijs.github.io/categories/share/</link>
+    <link>https://summerijs.github.io/hugo/categories/share/</link>
     <description>Recent content in share on Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 18 Oct 2019 17:18:42 +0800</lastBuildDate>
     
-	<atom:link href="https://summerijs.github.io/categories/share/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://summerijs.github.io/hugo/categories/share/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo Share more</title>
-      <link>https://summerijs.github.io/post/hugo-share-more/</link>
+      <link>https://summerijs.github.io/hugo/post/hugo-share-more/</link>
       <pubDate>Fri, 18 Oct 2019 17:18:42 +0800</pubDate>
       
-      <guid>https://summerijs.github.io/post/hugo-share-more/</guid>
+      <guid>https://summerijs.github.io/hugo/post/hugo-share-more/</guid>
       <description>&lt;h2 id=&#34;基础的个性化配置&#34;&gt;基础的个性化配置&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -28,10 +28,10 @@
     
     <item>
       <title>Hugo基础</title>
-      <link>https://summerijs.github.io/post/hugo-share-base/</link>
+      <link>https://summerijs.github.io/hugo/post/hugo-share-base/</link>
       <pubDate>Fri, 18 Oct 2019 17:18:42 +0800</pubDate>
       
-      <guid>https://summerijs.github.io/post/hugo-share-base/</guid>
+      <guid>https://summerijs.github.io/hugo/post/hugo-share-base/</guid>
       <description>&lt;h2 id=&#34;1-hugo的优点&#34;&gt;1.Hugo的优点&lt;/h2&gt;
 
 &lt;ul&gt;

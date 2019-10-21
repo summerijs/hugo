@@ -1,28 +1,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo</title>
-    <link>https://summerijs.github.io/</link>
+    <link>https://summerijs.github.io/hugo/</link>
     <description>Recent content on Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 18 Oct 2019 17:18:42 +0800</lastBuildDate>
-    <atom:link href="https://summerijs.github.io/" rel="self" type="application/rss+xml" />
+    <atom:link href="https://summerijs.github.io/hugo/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Posts</title>
-      <link>https://summerijs.github.io/post/</link>
+      <link>https://summerijs.github.io/hugo/post/</link>
       <pubDate>Fri, 18 Oct 2019 17:18:42 +0800</pubDate>
       
-      <guid>https://summerijs.github.io/post/</guid>
+      <guid>https://summerijs.github.io/hugo/post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pages</title>
-      <link>https://summerijs.github.io/pages/</link>
+      <link>https://summerijs.github.io/hugo/pages/</link>
       <pubDate>Wed, 07 Jun 2017 15:36:00 +0530</pubDate>
       
-      <guid>https://summerijs.github.io/pages/</guid>
+      <guid>https://summerijs.github.io/hugo/pages/</guid>
       <description></description>
     </item>
     

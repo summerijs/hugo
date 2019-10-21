@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Hugo</title>
-    <link>https://summerijs.github.io/tags/</link>
+    <link>https://summerijs.github.io/hugo/tags/</link>
     <description>Recent content in Tags on Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 18 Oct 2019 17:18:42 +0800</lastBuildDate>
     
-	<atom:link href="https://summerijs.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://summerijs.github.io/hugo/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>hugo</title>
-      <link>https://summerijs.github.io/tags/hugo/</link>
+      <link>https://summerijs.github.io/hugo/tags/hugo/</link>
       <pubDate>Fri, 18 Oct 2019 17:18:42 +0800</pubDate>
       
-      <guid>https://summerijs.github.io/tags/hugo/</guid>
+      <guid>https://summerijs.github.io/hugo/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ipsum</title>
-      <link>https://summerijs.github.io/tags/ipsum/</link>
+      <link>https://summerijs.github.io/hugo/tags/ipsum/</link>
       <pubDate>Tue, 28 Jun 2016 13:07:31 +0200</pubDate>
       
-      <guid>https://summerijs.github.io/tags/ipsum/</guid>
+      <guid>https://summerijs.github.io/hugo/tags/ipsum/</guid>
       <description></description>
     </item>
     
     <item>
       <title>golang</title>
-      <link>https://summerijs.github.io/tags/golang/</link>
+      <link>https://summerijs.github.io/hugo/tags/golang/</link>
       <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
-      <guid>https://summerijs.github.io/tags/golang/</guid>
+      <guid>https://summerijs.github.io/hugo/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>programming</title>
-      <link>https://summerijs.github.io/tags/programming/</link>
+      <link>https://summerijs.github.io/hugo/tags/programming/</link>
       <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
-      <guid>https://summerijs.github.io/tags/programming/</guid>
+      <guid>https://summerijs.github.io/hugo/tags/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>theme</title>
-      <link>https://summerijs.github.io/tags/theme/</link>
+      <link>https://summerijs.github.io/hugo/tags/theme/</link>
       <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
       
-      <guid>https://summerijs.github.io/tags/theme/</guid>
+      <guid>https://summerijs.github.io/hugo/tags/theme/</guid>
       <description></description>
     </item>
     
     <item>
       <title>go</title>
-      <link>https://summerijs.github.io/tags/go/</link>
+      <link>https://summerijs.github.io/hugo/tags/go/</link>
       <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
       
-      <guid>https://summerijs.github.io/tags/go/</guid>
+      <guid>https://summerijs.github.io/hugo/tags/go/</guid>
       <description></description>
     </item>
     
