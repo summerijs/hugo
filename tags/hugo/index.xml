@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on Hugo</title>
+    <link>http://summerijs.github.io/tags/hugo/</link>
+    <description>Recent content in hugo on Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 18 Oct 2019 17:18:42 +0800</lastBuildDate>
+    
+	<atom:link href="http://summerijs.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo Share more</title>
+      <link>http://summerijs.github.io/post/hugo-share-more/</link>
+      <pubDate>Fri, 18 Oct 2019 17:18:42 +0800</pubDate>
+      
+      <guid>http://summerijs.github.io/post/hugo-share-more/</guid>
+      <description>&lt;h2 id=&#34;基础的个性化配置&#34;&gt;基础的个性化配置&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;自定义清单页面的显示内容&lt;/p&gt;
+
+&lt;p&gt;在需要在清单页面显示的内容后面加上：&amp;lt;!--more--&amp;gt;，在这个标记之前的内容会带格式的显示在列表页，之后的内容不会显示；&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugo基础</title>
+      <link>http://summerijs.github.io/post/hugo-share-base/</link>
+      <pubDate>Fri, 18 Oct 2019 17:18:42 +0800</pubDate>
+      
+      <guid>http://summerijs.github.io/post/hugo-share-base/</guid>
+      <description>&lt;h2 id=&#34;1-hugo的优点&#34;&gt;1.Hugo的优点&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;静态文件，安全、备份方便；&lt;/li&gt;
+&lt;li&gt;所有页面数据源头都是一个md文件，纯文本（用什么软件都可以打开）、格式统一、管理方便；&lt;/li&gt;
+&lt;li&gt;安装方便，不需要依赖复杂的运行环境；&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linked post</title>
+      <link>http://summerijs.github.io/post/linked-post/</link>
+      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      
+      <guid>http://summerijs.github.io/post/linked-post/</guid>
+      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
+menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
+    </item>
+    
+    <item>
+      <title>Hugo is for lovers</title>
+      <link>http://summerijs.github.io/post/hugo-is-for-lovers/</link>
+      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
+      
+      <guid>http://summerijs.github.io/post/hugo-is-for-lovers/</guid>
+      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at installing hugo
+Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:
+ Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+    </item>
+    
+  </channel>
+</rss>

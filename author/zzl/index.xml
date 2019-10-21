@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>zzl on Hugo</title>
+    <link>http://summerijs.github.io/author/zzl/</link>
+    <description>Recent content in zzl on Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 18 Oct 2019 17:18:42 +0800</lastBuildDate>
+    
+	<atom:link href="http://summerijs.github.io/author/zzl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo Share more</title>
+      <link>http://summerijs.github.io/post/hugo-share-more/</link>
+      <pubDate>Fri, 18 Oct 2019 17:18:42 +0800</pubDate>
+      
+      <guid>http://summerijs.github.io/post/hugo-share-more/</guid>
+      <description>&lt;h2 id=&#34;基础的个性化配置&#34;&gt;基础的个性化配置&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;自定义清单页面的显示内容&lt;/p&gt;
+
+&lt;p&gt;在需要在清单页面显示的内容后面加上：&amp;lt;!--more--&amp;gt;，在这个标记之前的内容会带格式的显示在列表页，之后的内容不会显示；&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugo基础</title>
+      <link>http://summerijs.github.io/post/hugo-share-base/</link>
+      <pubDate>Fri, 18 Oct 2019 17:18:42 +0800</pubDate>
+      
+      <guid>http://summerijs.github.io/post/hugo-share-base/</guid>
+      <description>&lt;h2 id=&#34;1-hugo的优点&#34;&gt;1.Hugo的优点&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;静态文件，安全、备份方便；&lt;/li&gt;
+&lt;li&gt;所有页面数据源头都是一个md文件，纯文本（用什么软件都可以打开）、格式统一、管理方便；&lt;/li&gt;
+&lt;li&gt;安装方便，不需要依赖复杂的运行环境；&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

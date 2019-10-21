@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Author on Hugo</title>
+    <link>http://summerijs.github.io/author/</link>
+    <description>Recent content in Author on Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 18 Oct 2019 17:18:42 +0800</lastBuildDate>
+    
+	<atom:link href="http://summerijs.github.io/author/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>zzl</title>
+      <link>http://summerijs.github.io/author/zzl/</link>
+      <pubDate>Fri, 18 Oct 2019 17:18:42 +0800</pubDate>
+      
+      <guid>http://summerijs.github.io/author/zzl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test2</title>
+      <link>http://summerijs.github.io/author/test2/</link>
+      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
+      
+      <guid>http://summerijs.github.io/author/test2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test1</title>
+      <link>http://summerijs.github.io/author/test1/</link>
+      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
+      
+      <guid>http://summerijs.github.io/author/test1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
