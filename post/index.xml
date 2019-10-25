@@ -17,13 +17,7 @@
       <pubDate>Fri, 18 Oct 2019 17:18:42 +0800</pubDate>
       
       <guid>https://summerijs.github.io/hugo/post/hugo-share-more/</guid>
-      <description>&lt;h2 id=&#34;基础的个性化配置&#34;&gt;基础的个性化配置&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;自定义清单页面的显示内容&lt;/p&gt;
-
-&lt;p&gt;在需要在清单页面显示的内容后面加上：&amp;lt;!--more--&amp;gt;，在这个标记之前的内容会带格式的显示在列表页，之后的内容不会显示；&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>&lt;h2 id=&#34;1-主题config-toml内容介绍&#34;&gt;1.主题config.toml内容介绍&lt;/h2&gt;</description>
     </item>
     
     <item>

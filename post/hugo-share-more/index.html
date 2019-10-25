@@ -73,6 +73,26 @@
 	<div class="container clearfix">
   <div class="hgroup-wrap clearfix">
 
+    <section class="hgroup-right">
+      <div class="social-icons clearfix">
+	<ul>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	</ul>
+      </div>
+    </section>
+    
     
     <hgroup id="site-logo" class="clearfix">
       <h1 id="site-title">
@@ -204,22 +224,49 @@
 		    
 
 
-
-
-
-
-
 		</div>
 		<div class="entry-content" itemprop="articleBody">
-		    <h2 id="基础的个性化配置">基础的个性化配置</h2>
+		    <h2 id="1-主题config-toml内容介绍">1.主题config.toml内容介绍</h2>
+
+<pre><code>  # 基础设置
+  baseURL = &quot;http://balaramadurai.github.io/&quot; #生成网站之后替换这地址
+  title = &quot;Hugo&quot; #网站标题
+  subtitle = &quot;Hugo基础使用文档&quot; #网站副标题
+  languageCode = &quot;zh-cn&quot; #语言，取决于主题的设置，这里设置了好像没用
+  theme = &quot;hugo-travelify-theme&quot; #主题
+  GoogleAnalytics = &quot;&quot; # 添加你的谷歌分析代码
+  canonifyURLs = true
+
+  # 为右边栏启用和禁用小部件
+  [params.widgets]
+      recent_articles = true # 是否显示最近打开过的文档
+      categories = true # 是否显示分类模块
+      tags = true # 是否显示标签模块
+      tag_cloud = true
+      search = false # 是否显示搜索模块
+      mailchimp = false
+      mailchimpform = &quot;//balaramadurai.us15.list-manage.com/subscribe/post?u=7f4183fa2fe7abe3dc9f4efad&amp;amp;id=49a3dd3745&quot;
+      author = true # 是否显示作者模块
+
+  [params.slider]
+      enable = true   # 是否显示轮播图模块
+      manual = false   # Setting manual to true renders the slide selection to only those where the post has a slider=true option enabled
+                      # 设置为true，则只会选择启用了slider=true选项的帖子呈现幻灯片
+      num_features = 5 # The slider picks up the banner images from the N most recent posts, where num_features is N.
+                      # 滑块从最近的N篇文章中获取横幅图像，前提是manual = false
+  [Taxonomies]
+      tags = &quot;tags&quot;
+      categories = &quot;categories&quot;
+      author = &quot;author&quot;
+</code></pre>
+
+<h2 id="2-基础的个性化配置">2.基础的个性化配置</h2>
 
 <ul>
 <li><p>自定义清单页面的显示内容</p>
 
 <p>在需要在清单页面显示的内容后面加上：&lt;!--more--&gt;，在这个标记之前的内容会带格式的显示在列表页，之后的内容不会显示；</p></li>
-</ul>
 
-<ul>
 <li><p>自定义页面链接</p>
 
 <pre><code>[permallinks]
@@ -248,7 +295,7 @@
   <li class="previous">
     <a href="https://summerijs.github.io/hugo/post/hugo-share-base/" rel="prev">
       <span class="meta-nav">
-	
+	←
       </span>
       Hugo基础
     </a>

@@ -73,6 +73,26 @@
 	<div class="container clearfix">
   <div class="hgroup-wrap clearfix">
 
+    <section class="hgroup-right">
+      <div class="social-icons clearfix">
+	<ul>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	</ul>
+      </div>
+    </section>
+    
     
     <hgroup id="site-logo" class="clearfix">
       <h1 id="site-title">
@@ -204,11 +224,6 @@
 		    
 
 
-
-
-
-
-
 		</div>
 		<div class="entry-content" itemprop="articleBody">
 		    <h2 id="1-hugo的优点">1.Hugo的优点</h2>
@@ -248,7 +263,51 @@ Just a few more steps and you're ready to go:
 3. Start the built-in live server via &quot;hugo server&quot;.
 </code></pre>
 
-<p>根据提示你还需要做三件事：下载一个主题、给你的网站丰富内容、运行你的站点</p></li>
+<p>命令执行成功之后查看C:\Hugo\Sites\hugoShare目录，查看文件目录结构</p>
+
+<pre><code>│  config.toml
+│
+├─archetypes
+│      default.md
+│
+├─content
+├─data
+├─layouts
+├─static
+└─themes
+</code></pre>
+
+<ul>
+<li><p>config.toml<br />
+站点全局的参数配置文件</p></li>
+
+<li><p>archetypes<br />
+Hugo的markdown文件中前置数据Front Matter定义的结构，默认使用的是default.md文件，可以自定义，然后在config.toml中指定自定义的结构文件，打开default.md文件。</p>
+
+<pre><code>---
+title: &quot;{{ replace .Name &quot;-&quot; &quot; &quot; | title }}&quot;
+date: {{ .Date }}
+draft: true
+---
+</code></pre>
+
+<p>这是一种yaml格式，Front Matter支持三种格式，除了yaml，还支持toml，json方式。</p></li>
+
+<li><p>content<br />
+存放网页内容的目录，即我们编写的markdown文件都存放在此目录，此目录是Hugo的默认源目录。</p></li>
+
+<li><p>data<br />
+data目录用来存放数据文件，一般是json文件，Hugo提供了相关命令可以从data目录下读取相关的文件数据，然后渲染到HTML页面中，将业务数据与模板分离。</p></li>
+
+<li><p>layouts<br />
+存放自定义的模板文件，Hugo优先使用layouts目录下的模板，未发现再去themes目录下查找。</p></li>
+
+<li><p>static<br />
+存放静态文件，比如css、js、img等文件目录，Hugo在渲染时，会直接将static目录下的文件直接复制到public目录下，不会做任何渲染。</p></li>
+
+<li><p>themes<br />
+存放网站主题，可以下载多个主题，themes目录下的每个子目录代表了一个主题，可以通过在config.toml中通过参数theme指定主题，即theme目录下的子目录名字， 也可以在执行hugo命令渲染时通过增加flag参数–theme=xx指定。</p></li>
+</ul></li>
 
 <li><p>下载主题地址：<a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></p>
 
@@ -292,46 +351,10 @@ Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
 Press Ctrl+C to stop
 </code></pre>
 
-<p>根据提示，你的服务运行在<a href="http://localhost:1313/">http://localhost:1313/</a></p></li>
+<p>根据提示，你的服务运行在<a href="http://localhost:1313/hugo/">http://localhost:1313/hugo/</a></p></li>
 </ol>
 
-<h2 id="4-进一步配置-标题-副标题-侧边栏等">4.进一步配置：标题、副标题、侧边栏等</h2>
-
-<pre><code>```
-# 基础设置
-baseURL = &quot;http://balaramadurai.github.io/&quot; #生成网站之后替换这地址
-title = &quot;Hugo&quot; #网站标题
-subtitle = &quot;Hugo基础使用文档&quot; #网站副标题
-languageCode = &quot;zh-cn&quot; #语言，取决于主题的设置，这里设置了好像没用
-theme = &quot;hugo-travelify-theme&quot; #主题
-GoogleAnalytics = &quot;&quot; # 添加你的谷歌分析代码
-canonifyURLs = true
-
-# 为右边栏启用和禁用小部件
-[params.widgets]
-    recent_articles = true # 是否显示最近打开过的文档
-    categories = true # 是否显示分类模块
-    tags = true # 是否显示标签模块
-    tag_cloud = true
-    search = false # 是否显示搜索模块
-    mailchimp = false
-    mailchimpform = &quot;//balaramadurai.us15.list-manage.com/subscribe/post?u=7f4183fa2fe7abe3dc9f4efad&amp;amp;id=49a3dd3745&quot;
-    author = true # 是否显示作者模块
-
-[params.slider]
-    enable = true   # 是否显示轮播图模块
-    manual = false   # Setting manual to true renders the slide selection to only those where the post has a slider=true option enabled
-                    # 设置为true，则只会选择启用了slider=true选项的帖子呈现幻灯片
-    num_features = 5 # The slider picks up the banner images from the N most recent posts, where num_features is N.
-                    # 滑块从最近的N篇文章中获取横幅图像，前提是manual = false
-[Taxonomies]
-    tags = &quot;tags&quot;
-    categories = &quot;categories&quot;
-    author = &quot;author&quot;
-```
-</code></pre>
-
-<h2 id="5-使用hugo创建一篇文章">5.使用hugo创建一篇文章</h2>
+<h2 id="4-使用hugo创建一篇文章">4.使用hugo创建一篇文章</h2>
 
 <ol>
 <li><p>创键一篇文章命令：hugo new 文章的路径/文章的名称</p>
@@ -369,10 +392,13 @@ disable_profile: true # 是否显示侧边栏
 <p>具体参见 <a href="https://gohugo.io/content-management/front-matter/">https://gohugo.io/content-management/front-matter/</a> 和主题的使用说明</p></li>
 
 <li><p>完善你的文章内容；</p></li>
+</ol>
 
-<li><p>生成静态文件：生成的命令就是：hugo</p>
+<h2 id="5-生成静态文件">5.生成静态文件</h2>
 
-<pre><code>PS C:\Hugo\Sites\hugoShare&gt; hugo
+<pre><code>生成的命令就是：hugo
+```
+PS C:\Hugo\Sites\hugoShare&gt; hugo
 Building sites …
                 | EN
 +------------------+----+
@@ -386,10 +412,9 @@ Sitemaps         |  1
 Cleaned          |  0
 
 Total in 482 ms
+```
+运行完成之后，你的项目根目录会多一个public文件夹，里面就是所有生成的静态文件。
 </code></pre>
-
-<p>运行完成之后，你的项目根目录会多一个public文件夹，里面就是所有生成的静态文件。</p></li>
-</ol>
 		    	
 		</div>
 		
@@ -405,7 +430,7 @@ Total in 482 ms
   <li class="previous">
     <a href="https://summerijs.github.io/hugo/post/hugo-travelify-theme-features/" rel="prev">
       <span class="meta-nav">
-	
+	←
       </span>
       Hugo Travelify Theme Features
     </a>
@@ -417,7 +442,7 @@ Total in 482 ms
     <a href="https://summerijs.github.io/hugo/post/hugo-share-more/" rel="next">
       Hugo Share more
       <span class="meta-nav">
-	
+	→
       </span>
     </a>
   </li>

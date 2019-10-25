@@ -696,7 +696,7 @@ a.more-link:hover {
 #main-nav {
 	border: 1px solid #439f55;
 	cursor: pointer;
-	background: #57ad68;
+	background: #000 !important;
 	color: #fff;
 	position: relative;
 	text-shadow: 0 1px 1px rgba(0,0,0,0.4);
@@ -1246,7 +1246,6 @@ thead th,tfoot th,thead tr:hover th,tfoot tr:hover th {
 	margin: 24px 0;
 	margin: 1.7rem 0;
 	border-bottom: 2px dashed #eaeaea;
-}
 }
  .comments-area article header {
 	margin: 0 0 2.4rem;
